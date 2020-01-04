@@ -99,7 +99,7 @@ void app_main()
     /* Prompt to be printed before each line.
      * This can be customized, made dynamic, etc.
      */
-    const char* prompt = LOG_COLOR_I "esp8266> " LOG_RESET_COLOR;
+    const char* prompt = LOG_COLOR_I "kt> " LOG_RESET_COLOR;
 
     printf("\n"
            "This is an example of ESP-IDF console component.\n"

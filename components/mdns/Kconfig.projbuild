@@ -1,0 +1,15 @@
+menu "MDNS Configuration"
+
+config MDNS_HOSTNAME
+    string "mDNS Hostname"
+	default "kt"
+	help
+		mDNS Hostname for example to use
+
+config MDNS_INSTANCE
+    string "mDNS Instance Name"
+	default "ESP8266 Host"
+	help
+		mDNS Instance Name for example to use
+
+endmenu

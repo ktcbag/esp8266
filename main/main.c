@@ -33,6 +33,9 @@ static void initialize_nvs()
     ESP_ERROR_CHECK(err);
 }
 
+
+
+
 static void initialize_console()
 {
     /* Disable buffering on stdin */
@@ -88,7 +91,9 @@ static void initialize_console()
 void app_main()
 {
     initialize_nvs();
-
+    initialise_mdns();
+    initialise_wifi();
+    initialise_button();
     initialize_console();
 
     /* Register commands */
